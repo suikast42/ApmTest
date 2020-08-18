@@ -32,8 +32,8 @@ export class AppModule {
   constructor(@Inject(ApmService) service: ApmService) {
     // API is exposed through this apm instance
     const apm = service.init({
-      serviceName: 'angular-app',
-      serverUrl: 'http://localhost:8200'
+      serviceName: 'angular-test-app',
+      serverUrl: 'http://10.21.21.21:8200'
     })
 
     apm.setUserContext({

@@ -1,5 +1,8 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
+ "angularCompilerOptions": {
+    "enableIvy": false
+  },
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
@@ -8,10 +11,12 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
-    "module": "es2020",
+    "target": "es5",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
     "lib": [
       "es2018",
       "dom"

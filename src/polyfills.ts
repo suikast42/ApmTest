@@ -52,6 +52,9 @@
  *
  */
 
+import 'core-js/es/reflect';
+import 'reflect-metadata'
+
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
