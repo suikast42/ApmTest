@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ApmTest"
+    }
+  },
+  "defaultProject": "ApmTest",
+  "cli": {
+    "analytics": false
+  }
 }
